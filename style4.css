@@ -76,3 +76,48 @@ main h3 {
         width: 200px;
     }
 }
+@media (max-width:300px) {
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav {
+        padding: 5px 0px;
+    }
+
+    .info img {
+        padding: 40px;
+        padding-left: 20px;
+        width: 200px;
+    }
+
+    nav a {
+        font-size: 10px;
+        font-weight: 1000px;
+
+    }
+
+    div img {
+        width: 150px;
+        padding-left: 5px
+    }
+
+    main h3 {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    main {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    div h2 {
+        font-size: 15px;
+    }
+        nav a:hover {
+            font-size: 12px;
+        }
+
+}
